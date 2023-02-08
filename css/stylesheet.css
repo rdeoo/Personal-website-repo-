@@ -1,2 +1,6 @@
 body{background-color:#710A0A}
 h1{color:#539009}
+.navigation{background-color: aqua;}
+.link1 a{text-align: center; padding: 14px 16px; }
+.link2 a{text-align: center;}
+.navigation a{text-align: center;}
