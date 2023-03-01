@@ -10,3 +10,7 @@ h1{color:#539009}
     background-color: aqua;
     text-align: center; flex-direction: column;}
 .copyrightflex{display:flex;background-color: aqua;justify-content:center}
+.grid-container{display: grid;grid-template-columns:3fr;}
+.img-grid{justify-self: end;align-self: center;}
+
+
