@@ -15,6 +15,6 @@ h1{color:#539009}
 .classheader{display:flex;background-color: aqua;text-align: center; flex-direction: column;}
 .class-list{display:flex;background-color: aqua;justify-content:center;list-style-type: none;justify-content: space-between;}
 .schoolheader{display:flex;background-color: aqua;text-align: center; flex-direction: column;}
-.bcitimg{display:flex;background-color: aqua;justify-content:center}
+.bcitimg{display:flex;background-color: aqua;justify-content:center; }
 
 
