@@ -13,8 +13,14 @@ h1{color:#539009}
 .grid-container{display: grid;grid-template-columns:3fr;}
 .img-grid{justify-self: end;align-self: center;}
 .classheader{display:flex;background-color: aqua;text-align: center; flex-direction: column;}
-.class-list{display:flex;background-color: aqua;justify-content:center;list-style-type: none;justify-content: space-between;}
+/* .class-list{display:flex;background-color: aqua;justify-content:center;list-style-type: none;justify-content: space-between;} */
 .schoolheader{display:flex;background-color: aqua;text-align: center; flex-direction: column;}
 .bcitimg{display:flex;background-color: aqua;justify-content:center; }
+.containerlist1{display: grid;height: 390px; background-color:antiquewhite;}
+hr.solid {
+    border-top: 1px solid #000; background-color: antiquewhite;
+  }
+  .displayDiv1{justify-content: left;}
+  .displayDiv2{justify-content:right}
 
 
