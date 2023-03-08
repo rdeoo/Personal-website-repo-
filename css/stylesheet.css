@@ -22,5 +22,25 @@ hr.solid {
   }
   .displayDiv1{justify-content: left;}
   .displayDiv2{justify-content:right}
+.mediacontainer{max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto}
+
+    /* @media screen and (min-width: 600px) {
+        .mediacontainer {
+          max-width: 600px;
+        }
+      } */
+
+       @media screen and (min-width: 600px) {
+        body{
+          
+          /* flex-direction: column; */
+           /* align-items: center;
+          justify-content: center; */
+          grid-area: 1/2/3;
+        }}
+        
+      
 
 
