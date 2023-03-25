@@ -22,6 +22,12 @@ for (let course of courseList) {
   }
 }
 
+if (!coursevalidator) {
+  const courseadd = { code: "ACIT" + usercourse, name: null };
+  courseList.push(courseadd);
+  console.log(`Succesfully added:  ${courseadd.code}`);
+}
+
 // = prompt("Please enter a 4 digit number - e.g. 1620: ");
 // while (isNaN(usercourse) || usercourse.length !== 4) {
 //   prompt("Error. Please enter a number: ");
